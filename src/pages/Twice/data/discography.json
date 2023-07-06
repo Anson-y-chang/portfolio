@@ -1,0 +1,140 @@
+[
+  {
+    "id": 1,
+    "title": "THE STORY BEGINS",
+    "release_date": "2015-10-20",
+    "imgUrl": "../img/discography/THE_STORY_BEGINS.jpg"
+  },
+  {
+    "id": 2,
+    "title": "PAGE TWO",
+    "release_date": "2016-04-25",
+    "imgUrl": "../img/discography/PAGE_TWO.jpg"
+  },
+  {
+    "id": 3,
+    "title": "TWICEcoaster : Lane 1",
+    "release_date": "2016-10-24",
+    "imgUrl": "../img/discography/TWICEcoaster_LANE_1.jpg"
+  },
+  {
+    "id": 4,
+    "title": "TWICEcoaster : Lane 2",
+    "release_date": "2017-02-20",
+    "imgUrl": "../img/discography/TWICEcoaster_LANE_2.jpg"
+  },
+  {
+    "id": 5,
+    "title": "TWICE - SIGNAL",
+    "release_date": "2017-05-15",
+    "imgUrl": "../img/discography/TWICE_SIGNAL.jpg"
+  },
+  {
+    "id": 6,
+    "title": "twicetagram",
+    "release_date": "2017-10-20",
+    "imgUrl": "../img/discography/twicetagram.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Merry & Happy",
+    "release_date": "2017-12-11",
+    "imgUrl": "../img/discography/Merry&Happy.jpg"
+  },
+  {
+    "id": 8,
+    "title": "What is Love?",
+    "release_date": "2018-04-09",
+    "imgUrl": "../img/discography/What_is_Love.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Summer Nights",
+    "release_date": "2018-07-09",
+    "imgUrl": "../img/discography/Summer_Nights.jpg"
+  },
+  {
+    "id": 10,
+    "title": "YES or YES",
+    "release_date": "2018-11-05",
+    "imgUrl": "../img/discography/YES_or_YES.jpg"
+  },
+  {
+    "id": 11,
+    "title": "The year of YES",
+    "release_date": "2018-12-12",
+    "imgUrl": "../img/discography/The_year_of_YES.jpg"
+  },
+  {
+    "id": 12,
+    "title": "FANCY YOU",
+    "release_date": "2019-04-22",
+    "imgUrl": "../img/discography/FANCY_YOU.jpg"
+  },
+  {
+    "id": 13,
+    "title": "Feel Special",
+    "release_date": "2019-09-23",
+    "imgUrl": "../img/discography/Feel_Special.jpg"
+  },
+  {
+    "id": 14,
+    "title": "MORE & MORE",
+    "release_date": "2020-06-01",
+    "imgUrl": "../img/discography/MORE_MORE.jpg"
+  },
+  {
+    "id": 15,
+    "title": "Eyes wide open",
+    "release_date": "2020-10-26",
+    "imgUrl": "../img/discography/EYES WIDE OPEN.jpg"
+  },
+  {
+    "id": 16,
+    "title": "CRY FOR ME",
+    "release_date": "2020-12-18",
+    "imgUrl": "../img/discography/CRY FOR ME.jpg"
+  },
+  {
+    "id": 17,
+    "title": "Taste of Love",
+    "release_date": "2021-06-09",
+    "imgUrl": "../img/discography/Taste_of_Love.jpg"
+  },
+  {
+    "id": 18,
+    "title": "The Feels",
+    "release_date": "2021-10-01",
+    "imgUrl": "../img/discography/The_Feels.jpg"
+  },
+  {
+    "id": 19,
+    "title": "Formula of Love: O+T=<3",
+    "release_date": "2021-11-12",
+    "imgUrl": "../img/discography/Formula_of_Love.jpg"
+  },
+  {
+    "id": 20,
+    "title": "IM NAYEON",
+    "release_date": "2022-06-24",
+    "imgUrl": "../img/discography/IM_NAYEON.jpg"
+  },
+  {
+    "id": 21,
+    "title": "BETWEEN 1&2",
+    "release_date": "2022-08-26",
+    "imgUrl": "../img/discography/BETWEEN 1&2.jpg"
+  },
+  {
+    "id": 22,
+    "title": "MOONLIGHT SUNRISE",
+    "release_date": "2023-01-20",
+    "imgUrl": "../img/discography/Moonlight_Sunrise.jpg"
+  },
+  {
+    "id": 23,
+    "title": "READY TO BE",
+    "release_date": "2023-03-10",
+    "imgUrl": "../img/discography/Ready_To_Be.jpg"
+  }
+]

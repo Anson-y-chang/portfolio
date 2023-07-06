@@ -1,0 +1,27 @@
+.nav {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(121,168,169);
+}
+
+.nav img {
+  width: 140px;
+  font-size: 0px;
+}
+
+.navLink {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.navLink a {
+  font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+  color: white;
+  text-decoration: none;
+  letter-spacing: 1px;
+}

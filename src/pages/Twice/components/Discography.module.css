@@ -1,0 +1,69 @@
+.dicsography {
+  width: 900px;
+  height: auto;
+  margin: 0px auto;
+}
+
+.dgpTitle {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 2.5rem;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  padding-top: 120px;
+}
+
+.albumList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 80px;
+  gap: 1.2rem;
+}
+
+.album img {
+  width: 100%;
+}
+
+.album img::after {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  z-index: 999;
+}
+
+.subtitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 12px 0 ;
+}
+
+.subtitle span:first-of-type {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.subtitle span:last-of-type {
+  font-size: 0.9rem;
+}
+
+.pageControl {
+  font-family: 'Montserrat';
+  width: 200px;
+  margin: 50px auto 0px auto;
+  padding-bottom: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.pageControl button {
+  background-color: transparent;
+  border: none;
+  font-size: 1rem;
+  text-decoration: underline;
+  cursor: pointer;
+  
+}

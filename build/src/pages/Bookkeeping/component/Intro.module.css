@@ -1,0 +1,171 @@
+.container {
+  width: 100%;
+<<<<<<< HEAD
+  min-height: 100vh;;
+=======
+<<<<<<< HEAD
+  min-height: 100vh;;
+=======
+<<<<<<< HEAD
+  min-height: 100vh;;
+=======
+>>>>>>> c4ee1d9f8 (1st trial)
+>>>>>>> 5c33fc1b1 ( 1st trial)
+>>>>>>> be70d6c84 (1st)
+}
+
+.container section:first-of-type {
+  min-height: 750px;
+  height: 100vh;
+  padding-top: 205px;
+  padding-left: 5%;
+  display: flex;
+  align-items: top;
+  justify-content: space-between;
+  background: linear-gradient(
+    white,
+    rgb(213, 227, 213)
+    );
+}
+
+.container section:nth-of-type(2) {
+  margin-top: 50px;
+  min-height: 100vh;
+  height: auto;
+  justify-content: space-between;
+  background: linear-gradient(
+    white,
+    rgb(213, 227, 213)
+    );
+}
+
+.slogan {
+  font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+  min-width: 290px;
+  max-width: 350px;
+  width: 30%;
+  transform: translateX(10%);
+}
+
+.slogan div {
+  margin-bottom: 10px;
+}
+.slogan div:first-of-type {
+  font-size: 48px;
+}
+.slogan div:nth-of-type(2) {
+  font-size: 36px;
+}
+.slogan div:nth-of-type(3) { 
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.slogan a {
+  display: block;
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(80, 170, 80);
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.sample {
+  display: inline-block;
+  min-width: 500px;
+  max-width: 750px;
+  width: 70%;
+  position: relative;
+}
+
+.sample img {
+  position: absolute;
+  top: -10% ;
+  right: -5%;
+  width: 100%;
+}
+
+.steps {
+  font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+}
+
+.step {
+  height: calc((100vh - 58px) / 3);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.step img {
+  width: 300px;
+  box-shadow: 15px 15px 20px 0 #bdbcbc;
+  transform: scale(120%);
+}
+
+.stepInstruction {
+  text-align: center;
+  color: rgb(21, 109, 80);
+  width: 200px;
+}
+
+.stepInstruction div:first-of-type {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 850px) {
+  .container section:first-of-type {
+    padding-top: 100px;
+    padding-left: 0%;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: unset;
+<<<<<<< HEAD
+  }
+  .sample img {
+    right: -3%;
+=======
+<<<<<<< HEAD
+  }
+  .sample img {
+    right: -3%;
+=======
+<<<<<<< HEAD
+  }
+  .sample img {
+    right: -3%;
+=======
+    gap: 2rem;
+  }
+
+  .slogan {
+    transform: translateX(0%)
+  }
+  
+  .sample{
+    min-width: 350px;
+    width: 80%;
+  }
+
+  .sample img {
+    position: unset;
+    width: 100%;
+>>>>>>> c4ee1d9f8 (1st trial)
+>>>>>>> 5c33fc1b1 ( 1st trial)
+>>>>>>> be70d6c84 (1st)
+  }
+
+  .step {
+    height: 400px;
+    flex-direction: column;
+  }
+
+  .step:nth-of-type(2) {
+    flex-direction: column-reverse;
+  }
+}

@@ -1,0 +1,15 @@
+.homeCover {
+  width: 100%;
+}
+
+.startButton  {
+  position: absolute;
+  border-radius: 100%;
+  top: 38.2vw;
+  right: 7.6%;
+  display: block;
+  width: 16vw;
+  aspect-ratio: 1;
+}
+
+

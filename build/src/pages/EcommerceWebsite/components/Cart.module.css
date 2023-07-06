@@ -1,0 +1,132 @@
+.cart {
+  overflow-y: scroll;
+  position: fixed;
+  height: 100vh;
+  width: min(70%,398px);
+  top: 0;
+  right: 0;
+  border-left: 1px solid rgba(100, 90, 90, 0.2);
+  color: rgb(130, 130, 130);
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+  transition: 500ms;
+  background-color: white; 
+}
+
+.cartBack {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.cartBackSvg {
+  fill: rgb(130, 130, 130);
+  width: 0.6rem;
+}
+
+.cart > div:nth-of-type(1), .cart > div:nth-of-type(3) {
+  padding: 20px 20px 20px 20px;
+  border-bottom: 1px solid rgba(100, 90, 90, 0.2);
+}
+
+.cartEmpty {
+  padding: 20px 20px 20px 20px;
+  border-bottom: 1px solid rgba(100, 90, 90, 0.2);
+}
+
+.cartItems {
+  display: flex;
+  flex-direction: column;
+}
+
+.cartItemContainer {
+  padding: 20px 20px 20px 20px;
+  display: flex;
+  gap: 1rem;
+  border-bottom: 1px solid rgba(100, 90, 90, 0.2);
+}
+
+.cartImg {
+  width:  25%;
+}
+
+.cartItemInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.cartItemInfo div:nth-last-of-type(2), .cart-item-info div:nth-last-of-type(3) {
+  color:rgb(50, 50 50);
+  font-size: 0.8rem;
+  font-weight: 600;
+} 
+
+.cartItemHandle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cartItemHandle button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.cartItemNumber {
+  display: flex;
+  align-items: center;
+}
+
+.cartItemNumber button {  
+  color: rgb(130, 130, 130);
+  font-size:1.5rem;
+}
+
+.cartItemNumber button:first-of-type {
+  font-size:2rem;
+}
+
+.cartItemNumber div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  aspect-ratio: 1;
+  border: 1px solid rgba(100, 90, 90, 0.2);
+  border-radius: 5px;
+}
+
+.cartItemHandle svg {
+  fill: rgb(130, 130, 130);
+  width: 0.9rem;
+}
+
+.subtotal {
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkout {
+  margin: 20px;
+  
+}
+
+.checkout div {
+  display: block;
+  width: 100%;
+  padding: 20px 20px 20px;
+  background-color: rgb(170, 170, 170);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+:global(.cart.menu-active) {
+  transform: translateX(398px); 
+}

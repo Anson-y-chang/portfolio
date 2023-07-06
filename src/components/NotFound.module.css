@@ -1,0 +1,27 @@
+.notFound {
+  text-align: center;
+  padding-top: 200px;
+  color: #391a09 !important;
+  font-family: 'Montserrat';
+}
+
+.notFound div:first-of-type {
+  font-size: 100px;
+  margin-bottom: 20px;
+}
+
+.notFound div:not(:first-of-type) {
+  margin-bottom: 10px;
+}
+
+.notFound a {
+  display: block;
+  margin: 40px auto 0 auto;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  text-decoration: none;
+  color: white;
+  background-color: #391a09;
+  border-radius: 5px;
+}

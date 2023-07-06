@@ -1,0 +1,35 @@
+.Nav {
+  position: fixed;
+  z-index: 1;
+  padding: 0 15px;
+  width: 100%;
+  font-family: 'Montserrat';
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  box-shadow: 0px 10px 10px rgb(200, 200, 200);
+}
+
+.Nav ul {
+  padding: 0px;
+  list-style: none;
+  display: flex;
+  gap: 1.2rem;
+}
+
+.Nav a {
+  text-decoration: none;
+  color: black;
+}
+
+
+@media (max-width: 700px) {
+  .Nav {
+    font-size: 0.6rem;
+    padding: 0 5px;
+  }
+  .Nav ul {
+    gap: 5px;
+  }
+}
