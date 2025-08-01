@@ -1,25 +1,15 @@
 .contact {
-  min-height: 300px;
-  font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+  min-height: 150px;
+  font-family: "Spoqa Han Sans Neo", "sans-serif";
   padding: 50px 5% 0 5%;
-  background: linear-gradient(
-    white,
-    ghostwhite
-  );
+  background: linear-gradient(white, ghostwhite);
 }
 
 .contact > div {
   font-size: 1.2rem;
 }
 
-.contact > div:first-of-type {
-  color: #3a78fe;
-  margin-bottom: 10px;
-  font-weight: 600;
-}
-
 .contactDetail {
-  margin-top: 65px;
   display: flex;
   gap: 6rem;
   align-items: center;
@@ -40,7 +30,6 @@
   color: rgb(70, 70, 70);
 }
 
-
 .contactDetail img {
   width: 60px;
   font-size: 0px;
@@ -55,7 +44,7 @@
   .contactDetail {
     margin-top: 40px;
     flex-direction: column;
-    align-items:start;
+    align-items: start;
     gap: 0;
   }
 

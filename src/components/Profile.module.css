@@ -2,7 +2,7 @@
   width: 100%;
   min-height: 100vh;
   height: auto;
-  font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+  font-family: "Spoqa Han Sans Neo", "sans-serif";
   padding-top: 155px;
   background-color: white;
   position: relative;
@@ -27,12 +27,12 @@
   margin: 0;
 }
 
-.introText>span {
+.introText > span {
   font-size: 0.9rem;
   color: rgb(70, 70, 70);
 }
 
-.introText>p {
+.introText > p {
   font-size: 0.9rem;
   color: rgb(70, 70, 70);
   margin-bottom: 20px;
@@ -41,7 +41,7 @@
 .myPic {
   -webkit-animation: morph 8s ease-in-out infinite;
   animation: morph 8s ease-in-out infinite;
-  background-image: url('../img/mypic.jpeg');
+  background-image: url("../img/mypic.jpeg");
   background-position: 70% 92%;
   background-size: 200%;
   border: 3px solid #2d2e32;
@@ -65,14 +65,12 @@
 }
 
 .intro section:nth-of-type(2) {
-
 }
 
 .stack {
   display: flex;
   align-items: center;
-  gap: 1rem;
-  margin-top: 70px;
+  margin-top: 100px;
   padding: 0 5%;
 }
 
@@ -84,17 +82,16 @@
 .stack ul {
   list-style: none;
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .stack li {
-  font-size: 0px;
+  font-size: 1rem;
 }
 
 .stack img {
   height: 20px;
 }
-
 
 @media (max-width: 700px) {
   .intro {
@@ -137,22 +134,18 @@
     margin-top: 0;
     padding: 0;
   }
-
 }
-
-
-
 
 @keyframes morph {
   0% {
-    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   }
 
   50% {
-    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%
+    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
   }
 
   to {
-    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   }
 }

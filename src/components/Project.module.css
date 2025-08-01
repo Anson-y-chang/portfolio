@@ -1,14 +1,14 @@
 .project {
   width: 100%;
-  font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+  font-family: "Spoqa Han Sans Neo", "sans-serif";
   padding-top: 150px;
-  background-color: ghostwhite;
+  background-color: #ebecf0;
   padding: 70px 0% 100px 0%;
 }
 
 .project > div:first-of-type {
   padding-left: 5%;
-  color: #3a78fe;
+  color: #545963;
   font-size: 1.2rem;
   font-weight: 600;
 }
@@ -19,13 +19,17 @@
   justify-content: space-around;
   max-width: 1000px;
   margin: 80px auto 0px auto;
-
 }
 
 .projectImg {
   width: 420px;
+  height: 280px;
+
   display: flex;
   align-items: center;
+  box-shadow: 10px 10px 20px 0 #bdbcbc;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .projectImg:nth-of-type(2) {
@@ -37,27 +41,32 @@
 }
 
 .projectImg img {
-  height: 280px;;
-  box-shadow: 10px 10px 20px 0 #bdbcbc;
-  border-radius: 10px;
+  width: 100%;
+  transition: transform 0.35s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transform-origin: center center;
+  will-change: transform;
+}
+
+.projectImg:hover img {
+  transform: scale(1.1);
 }
 
 .projectText {
-  background-color: rgb(255, 255, 255);
-  border: 1px solid rgba(0,0,0,0.2);
+  /* background-color: rgb(255, 255, 255); */
+  /* border: 1px solid rgba(0, 0, 0, 0.2); */
   width: 260px;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   position: relative;
 }
 
 .projectText h3 {
-  border-radius: 10px 10px 0 0 ;
-  margin: 0;
-  background-color:  #3a78fe;
-  color: white;
-  padding: 5% 10%;
+  border-radius: 10px 10px 0 0;
+  margin-left: 26px;
+  margin-right: 26px;
+  margin-bottom: 0px;
+  color: #545963;
+  border-bottom: 1px solid #545963;
 }
-
 
 .projectText p {
   color: rgb(70, 70, 70);
@@ -70,7 +79,6 @@
 .projectText a {
   color: rgb(70, 70, 70);
   margin-left: 10%;
-  
 }
 
 @media (max-width: 700px) {
@@ -93,7 +101,7 @@
   }
 
   .projectImg:nth-of-type(2) {
-  justify-content: center;
+    justify-content: center;
   }
 
   .projectImg img {
@@ -114,5 +122,4 @@
     display: block;
     padding-bottom: 20px;
   }
-
 }

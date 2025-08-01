@@ -2,7 +2,7 @@
   width: 100%;
 }
 
-.startButton  {
+.startButton {
   position: absolute;
   border-radius: 100%;
   top: 38.2vw;
@@ -11,5 +11,3 @@
   width: 16vw;
   aspect-ratio: 1;
 }
-
-
